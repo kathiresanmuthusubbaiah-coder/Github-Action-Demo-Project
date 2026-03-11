@@ -29,6 +29,6 @@ jobs:
         uses: docker/login-action@v2.1.0
         with:
          registry: registry-1.docker.io
-         username: ${{secrets.DOCKERUSERNAME}}
-         password: ${{secrets.DOCKERPASSWORD}}
+         username: ${{secrets.DOCKERHUBUSERNAME}}
+         password: ${{secrets.DOCKERHUBPASSWORD}}
           echo test, and deploy your project.
