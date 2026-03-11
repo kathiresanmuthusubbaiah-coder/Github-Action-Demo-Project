@@ -31,4 +31,3 @@ jobs:
          registry: registry-1.docker.io
          username: ${{secrets.DOCKERHUBUSERNAME}}
          password: ${{secrets.DOCKERHUBPASSWORD}}
-          echo test, and deploy your project.
